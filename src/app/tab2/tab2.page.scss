@@ -1,0 +1,28 @@
+.custom-row {
+    --background: blue;
+}
+
+.cabecalho{
+    background-color: rgba($color: #b6b6b6, $alpha: 1.0);
+    border-radius: 5px;
+}
+.corpo{
+    background-color: rgba($color: #e4e4e4, $alpha: 1.0);
+
+}
+.select{
+    background-color: red;
+}
+
+.resultado{
+    display: block;
+}
+
+.resultadoHidden{
+    display: none;
+}
+
+.corpo:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
